@@ -1,7 +1,6 @@
+import { useState } from 'react';
 import type { PokemonDetail } from '../../types/pokemon.ts';
 import { HEADER_GRADIENTS } from '../../utils/designSystem.ts';
-import { Typography } from '../atoms/Typography';
-import { useState } from 'react';
 
 interface PokemonDetailCardProps {
   pokemon: PokemonDetail;
